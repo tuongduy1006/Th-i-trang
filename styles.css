@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    font-size: 24px;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.product {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+.product h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.product p {
+    font-size: 14px;
+    color: #555;
+}
+
+.home img {
+    width: 40px; /* Kích thước ảnh */
+    height: 40px;
+    border-radius: 50%; /* Làm ảnh tròn (tuỳ chọn) */
+    transition: transform 0.3s;
+}
+
+.home img:hover {
+    transform: scale(1.1); /* Phóng to khi di chuột */
+    cursor: pointer;
+}
+
+.home img:active {
+    transform: scale(0.9); /* Thu nhỏ khi nhấn */
+    cursor: pointer;
+}
+
+.home {
+    border: none;
+    padding: 0;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.link {
+    color: blue;
+    font-weight: 600;
+}

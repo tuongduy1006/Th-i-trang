@@ -1,0 +1,165 @@
+header {
+    background-color: orange;
+    color: black;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.product {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+.product h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.product p {
+    font-size: 14px;
+    color: #555;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.in4 {
+    text-align: center;
+    color: black;
+    font-weight: 700;
+}
+
+.customer-info {
+    flex-grow: 1;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="number"] {
+    width: 100px;
+    text-align: center;
+}
+
+.nut {
+    flex-grow: 1;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin: 10px 0;
+}
+
+.form-group label {
+    width: 30%;  /* Điều chỉnh độ rộng của label */
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 68%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin: 10px 0;
+}
+
+.form-group label {
+    width: 30%;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 68%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order-btn {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home img {
+    width: 40px; /* Kích thước ảnh */
+    height: 40px;
+    border-radius: 50%; /* Làm ảnh tròn (tuỳ chọn) */
+    transition: transform 0.3s;
+}
+
+.home img:hover {
+    transform: scale(1.1); /* Phóng to khi di chuột */
+    cursor: pointer;
+}
+
+.home img:active {
+    transform: scale(0.9); /* Thu nhỏ khi nhấn */
+    cursor: pointer;
+}
+
+.home {
+    border: none;
+    padding: 0;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
